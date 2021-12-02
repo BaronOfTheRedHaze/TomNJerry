@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -30,7 +29,6 @@ public class Main {
                         System.out.println("Du gick 1 steg fram");
                     } else if (dice_value == 3) {
                         System.out.println("You dead!!!!!!!");
-                        break;
                     } else if (dice_value == 4) {
                         System.out.println("Du gick 4 steg framåt");
                     } else if (dice_value == 5) {
