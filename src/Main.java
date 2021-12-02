@@ -19,10 +19,10 @@ public class Main {
         boolean programRunning = true;
         while (programRunning) {
             switch (intInput) {
-                case 1:
+                case 1 -> {
                     myScanner.nextInt();
                     System.out.println("Kastar tärning");
-                    int dice_value = rand.nextInt(6)+ 1;
+                    int dice_value = rand.nextInt(6) + 1;
                     if (dice_value == 1) {
                         System.out.println(dice_value);
                         System.out.println("Du gick 3 steg bakåt");
@@ -38,8 +38,8 @@ public class Main {
                     } else if (dice_value == 6) {
                         System.out.println("Godnatt!");
                     }
-                    break;
-                case 2: programRunning = false;
+                }
+                case 2 -> programRunning = false;
             }
         }
     }
